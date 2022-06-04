@@ -1,0 +1,12 @@
+.Body {
+    height:100%;    
+    font-family:'Times New Roman', Times, serif;
+    margin: 0;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: transparent;
+}
+  

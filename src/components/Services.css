@@ -1,0 +1,92 @@
+@media screen and (max-width: 540px) {
+    .service-section
+{ 
+    background-color: red;
+    box-shadow: 0 4px 8px #131818;
+    transition: 0.3s;
+    width:97%;
+    height:130%;
+    align-self:center;
+    padding:0.5%;
+    margin-top:4%;
+    background-color: white;
+    border-radius:10;
+    left:1%;
+    margin-left:3px
+}
+}
+@media screen and (min-width: 780px) {
+    .service-section
+    {
+  background-color: red;
+        transition: 0.3s;
+        width:90%;
+        height:1230px;
+        padding:0.5%;
+        margin-top:4%;
+        background-color: white;
+        border-radius:10;
+        margin-bottom: 300px;
+        position: relative;
+        top: 80px;
+        z-index: 999;
+       
+        margin-left:5%
+
+    }
+    /* service card*/
+ 
+      .service-card
+{
+  box-shadow: 5px 5px 8px 5px #c9c2c2;
+  float:left;
+  width:480px;
+  height:350px;
+  margin:15px;
+  border-radius: 10px;
+  margin-left: 70px;
+}
+.service-header h1
+{
+    font-size: 50px;
+    color:#000000;  
+}
+.service-card-icons
+{
+    width:100px;
+    height:100px;
+    position:relative;
+    left:240px;
+    top:20px;
+    
+}
+.service-card-title
+{
+    color:#ca1fd9;
+    font-size: 40px;
+    position: relative;
+    right:25px;
+    
+}
+.service-card-body
+{
+    font-size:23px;
+    margin-bottom: 10px;
+}
+.service-card-button
+{
+position: relative;
+}
+.service-card-footer
+{
+position: relative;
+}
+.service-card-application
+{
+  box-shadow: 5px 5px 8px 5px #c9c2c2;
+  width:1333px;
+  margin-top:800px;
+  border-radius: 10px;
+  text-align: center;
+}
+}

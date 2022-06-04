@@ -1,0 +1,704 @@
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey;
+  border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: darkgrey;
+  border-radius: 10px;
+}
+
+@media screen and (max-width: 540px) {
+  .calculator-values {
+    transform: rotate(330deg);
+    position: relative;
+    top: 25%;
+    left: 26%;
+    width: 160px;
+ 
+  }
+
+  .calculator {
+
+    margin-right: 25px 0;
+    position: relative;
+    left: 40px;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    border: 12px solid transparent;
+    background-size: 100% 100%, 50% 50%, 50% 50%, 50% 50%, 50% 50%;
+    background-repeat: no-repeat;
+    background-image: linear-gradient(white, white),
+      linear-gradient(30deg, #CA1FD9 36%, lightgrey 30%),
+      linear-gradient(120deg, #CA1FD9 36%, lightgrey 30%),
+      linear-gradient(300deg, #CA1FD9 36%, lightgrey 30%),
+      linear-gradient(210deg, #CA1FD9 36%, lightgrey 30%);
+    background-position: center center, left top, right top, left bottom, right bottom;
+    background-origin: content-box, border-box, border-box, border-box, border-box;
+    background-clip: content-box, border-box, border-box, border-box, border-box;
+    transform: rotate(30deg);
+  }
+
+  .properties-seaction {
+
+    /* Add shadows to create the "card" effect */
+    box-shadow: 0 4px 8px #131818;
+    transition: 0.3s;
+    width: 100%;
+    align-self: center;
+    padding: 0.5%;
+    margin-top: 14%;
+    background-color: white;
+    border-radius: 10;
+
+  }
+
+  .productcard {
+    padding: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 150px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+    display: inline-block
+  }
+
+  .productsbodyheader {
+    /* Add shadows to create the "card" effect */
+    width: 100%;
+    margin-top: -20px;
+    margin-bottom: 3%;
+    background-color: #E1BEE7;
+  }
+  .aboutus {
+
+
+    width: 100%;
+    text-align: center;
+    font-family: arial;
+
+
+  }
+  .aboutus h1 {
+    font-size: 30px;
+    color: #000000;
+    font-weight: 50;
+  }
+
+  .aboutus h2 {
+    font-size: 33px;
+    font-weight: 100;
+  }
+
+  .aboutus-header {
+    width: 100%;
+
+  }
+
+  .aboutus p {
+    font-size: 18px;
+    font-weight: 100;
+    width: 100%;
+    position: relative;
+  
+
+
+  }
+  .button-primary {
+    color: #fff;
+    background-color: #CA1FD9;
+    border-color: #CA1FD9;
+    display: inline-block;
+    font-weight: 400;
+    line-height: 1.5;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: middle;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+    border: 1px solid transparent;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    border-radius: 0.25rem;
+    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+  }
+  .rates-wrapper {
+    width: 100%;
+   
+  }
+    .rates-header {
+      text-align: center;
+    width: 100%;
+
+  }
+  .rates-header p {
+    font-size: 18px;
+    color: #000000;
+  }
+
+  .rates-header h1 {
+    font-size: 30px;
+    color: #000000;
+  }
+  .aboutuscardimg_s {
+    
+    height: 15vw;
+    object-fit: cover;
+    width: 100%;
+    padding-top: 3%;
+    display: inline;
+
+
+  }
+  .testimonies {
+    margin-top: 60px;
+    display: inline;
+  }
+  .corouselsection {
+    width: 100%;
+
+  }
+  .testimonies {
+    margin-top: 60px
+  }
+
+  .testimonies h1 {
+    font-size: 50px;
+    color: #000000;
+  }
+
+  .testimonies-image-section {
+
+    width: 580px;
+    margin-left: 150px;
+    text-align: left;
+    font-family: arial;
+    float: left;
+  }
+
+  .testimonial-image {
+    width: 366px;
+    height: 344px
+  }
+
+  .testimonies-message {
+    width: 550px;
+    margin-left: 50px;
+    text-align: left;
+    font-family: arial;
+    float: left;
+
+  }
+
+  /* Message box starts here */
+  .message-container {
+    clear: both;
+    position: relative;
+    background-color: aqua;
+    left: 130px
+  }
+
+  .message-container .arrow {
+    width: 12px;
+    height: 20px;
+    overflow: hidden;
+    position: relative;
+    float: left;
+    top: 20px;
+    right: -2px;
+  }
+
+  .message-container .arrow .outer {
+    width: 0;
+    height: 0;
+    border-right: 20px solid #000000;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+
+  .message-container .arrow .inner {
+    width: 0;
+    height: 0;
+    border-right: 20px solid #ffffff;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    position: absolute;
+    top: 0;
+    left: 2px;
+  }
+
+  .message-container .message-body {
+    float: left;
+    width: 400px;
+    height: auto;
+    border: 1px solid #CCC;
+    background-color: #ffffff;
+    border: 1px solid #000000;
+    padding: 6px 8px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -o-border-radius: 5px;
+    border-radius: 5px;
+  }
+
+  .message-container .message-body p {
+    margin: 0;
+  }
+
+  /*message box avatar*/
+  .avatar-section {
+    width: 100px;
+    height: 170px;
+  }
+
+  .avatar {
+    vertical-align: middle;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+  }
+
+  .avatar-section {
+    position: relative;
+    top: 20px;
+
+  }
+
+  .avatar-image-section {
+    float: right;
+  }
+
+  .avatar-title-section {
+    float: left;
+    position: relative;
+    left: 120px;
+    top: -55px;
+
+
+  }
+
+}
+
+@media screen and (min-width: 780px) {
+  .button-primary {
+    color: #fff;
+    background-color: #CA1FD9;
+    border-color: #CA1FD9;
+    display: inline-block;
+    font-weight: 400;
+    line-height: 1.5;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: middle;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+    border: 1px solid transparent;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    border-radius: 0.25rem;
+    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+  }
+
+  .rates-wrapper {
+    width: 100%;
+    text-align: center;
+  }
+
+  .calculator-button {
+    position: relative;
+    top: 20px;
+    right: 70px
+  }
+
+  .calculator-values {
+    transform: rotate(330deg);
+    position: relative;
+    top: 25%;
+    left: 3%;
+    width: 320px;
+  }
+
+  .rates-header {
+    width: 100%;
+
+
+  }
+
+  .rates-header p {
+    font-size: 50px;
+    color: #000000;
+  }
+
+  .rates-header h1 {
+    font-size: 50px;
+    color: #000000;
+  }
+
+  .calculator {
+
+    margin-right: 25px 0;
+    position: relative;
+    left: 60px;
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+    border: 12px solid transparent;
+    background-size: 100% 100%, 50% 50%, 50% 50%, 50% 50%, 50% 50%;
+    background-repeat: no-repeat;
+    background-image: linear-gradient(white, white),
+      linear-gradient(30deg, #CA1FD9 36%, lightgrey 30%),
+      linear-gradient(120deg, #CA1FD9 36%, lightgrey 30%),
+      linear-gradient(300deg, #CA1FD9 36%, lightgrey 30%),
+      linear-gradient(210deg, #CA1FD9 36%, lightgrey 30%);
+    background-position: center center, left top, right top, left bottom, right bottom;
+    background-origin: content-box, border-box, border-box, border-box, border-box;
+    background-clip: content-box, border-box, border-box, border-box, border-box;
+    transform: rotate(30deg);
+  }
+
+  .properties-seaction {
+    /* Add shadows to create the "card" effect */
+
+
+
+    transition: 0.3s;
+    width: 100%;
+    border-right-width: 15%;
+    border-left-width: 15%;
+    padding: 0.3;
+
+  }
+
+  .corouselsection {
+    width: 100%;
+
+  }
+
+  .corouselimage {
+
+    height: 50vw;
+    display: inline;
+  }
+
+  .productsbodyheader {
+    /* Add shadows to create the "card" effect */
+    width: 100%;
+    margin-top: -20px;
+    margin-bottom: 3%;
+    background-color: #E1BEE7;
+  }
+
+  .productcard {
+    padding: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 220px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+    display: inline-block
+  }
+
+  .productprice {
+    color: rgb(119, 69, 69);
+    font-size: 15px;
+    display: inline;
+  }
+
+  .productdescription {
+    color: rgb(7, 4, 4);
+    font-size: 16px;
+
+  }
+
+  .productsectionheader {
+    color: grey;
+    font-size: 22px;
+  }
+
+  .productcardbutton {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+  }
+
+  .productcardbutton:hover {
+    opacity: 0.7;
+  }
+
+  .productcardimage {
+    height: 15vw;
+    object-fit: cover;
+    width: 100px;
+    display: inline;
+    padding: 0px;
+  }
+
+  .chevronlabel {
+    font-size: 12px;
+  }
+
+
+  .pricing-details {
+    width: 200px;
+    height: 80px;
+    background-color: aqua;
+  }
+
+  .aboutuscardimgdiv_s {
+
+    width: 600px;
+    margin-left: 50px;
+    text-align: center;
+    font-family: arial;
+    float: left;
+    height: 430px
+  }
+
+  .feature-a {
+
+
+    width: 580px;
+    margin-left: 150px;
+    text-align: left;
+    font-family: arial;
+    float: left;
+
+  }
+
+  .aboutus {
+
+
+    width: 100%;
+    text-align: center;
+    font-family: arial;
+
+
+  }
+
+  .aboutus h1 {
+    font-size: 50px;
+    color: #000000;
+    font-weight: 50;
+  }
+
+  .aboutus h2 {
+    font-size: 80px;
+    font-weight: 100;
+  }
+
+  .aboutus-header {
+    width: 100%;
+
+  }
+
+  .aboutus p {
+    font-size: 23px;
+    font-weight: 100;
+    width: 100%;
+    position: relative;
+
+
+  }
+
+  .aboutuscardimg_s {
+    
+    height: 15vw;
+    object-fit: cover;
+    width: 100%;
+    padding-top: 3%;
+    display: inline;
+    width: 160px
+  }
+
+  .aboutuscardtext_s {
+    width: 650px;
+    margin-left: 40px;
+    text-align: left;
+    font-family: arial;
+    float: left;
+    height: 430px;
+
+
+  }
+
+  .feature-b {
+
+    width: 550px;
+    margin-left: 50px;
+    text-align: left;
+    font-family: arial;
+    float: left;
+
+
+
+
+  }
+
+  .aboutus_s p {
+    font-size: 19px;
+  }
+
+  .testimonies {
+    margin-top: 60px
+  }
+
+  .testimonies h1 {
+    font-size: 50px;
+    color: #000000;
+  }
+
+  .testimonies-image-section {
+
+    width: 580px;
+    margin-left: 150px;
+    text-align: left;
+    font-family: arial;
+    float: left;
+  }
+
+  .testimonial-image {
+    width: 366px;
+    height: 344px
+  }
+
+  .testimonies-message {
+    width: 550px;
+    margin-left: 50px;
+    text-align: left;
+    font-family: arial;
+    float: left;
+
+  }
+
+  /* Message box starts here */
+  .message-container {
+    clear: both;
+    position: relative;
+    background-color: aqua;
+    left: 130px
+  }
+
+  .message-container .arrow {
+    width: 12px;
+    height: 20px;
+    overflow: hidden;
+    position: relative;
+    float: left;
+    top: 20px;
+    right: -2px;
+  }
+
+  .message-container .arrow .outer {
+    width: 0;
+    height: 0;
+    border-right: 20px solid #000000;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+
+  .message-container .arrow .inner {
+    width: 0;
+    height: 0;
+    border-right: 20px solid #ffffff;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    position: absolute;
+    top: 0;
+    left: 2px;
+  }
+
+  .message-container .message-body {
+    float: left;
+    width: 400px;
+    height: auto;
+    border: 1px solid #CCC;
+    background-color: #ffffff;
+    border: 1px solid #000000;
+    padding: 6px 8px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -o-border-radius: 5px;
+    border-radius: 5px;
+  }
+
+  .message-container .message-body p {
+    margin: 0;
+  }
+
+  /*message box avatar*/
+  .avatar-section {
+    width: 100px;
+    height: 170px;
+  }
+
+  .avatar {
+    vertical-align: middle;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+  }
+
+  .avatar-section {
+    position: relative;
+    top: 20px;
+
+  }
+
+  .avatar-image-section {
+    float: right;
+  }
+
+  .avatar-title-section {
+    float: left;
+    position: relative;
+    left: 120px;
+    top: -55px;
+
+
+  }
+
+  /*patners*/
+  .patners-avatar-section {
+    width: 300px;
+    height: 270px;
+    display: inline-block;
+  }
+
+  .patners-avatar {
+    vertical-align: middle;
+    width: 100px;
+    height: 100px;
+    padding: 20px;
+    border-radius: 100px;
+  }
+
+  /*slider section*/
+  .slider-section {
+    width: 80%;
+    margin-left: 13%
+  }
+}

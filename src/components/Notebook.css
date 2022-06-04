@@ -1,0 +1,109 @@
+
+@media screen and (max-width:540px){
+  .notebook
+  {
+
+  position:relative;
+  top:140px;
+  height:fit-content;
+  left:35px;
+  z-index: 999;
+  width:0px;
+  height:0px;
+  
+  }
+  .notebook-body {
+    
+    background-color :#f5f5f5;
+    width: 100px;
+    margin: 0 auto;
+    padding: 0;
+    
+  }
+  
+  .notebook-list {
+  
+    color: rgb(0, 0, 0) !important;
+    font-size: 22px;
+    padding: 0 !important;
+    width: 200px;
+    font-family: courier, monospace;
+    border: 1px solid #CA1FD9 ;
+    overflow-wrap: break-word;
+  }
+  .notebook-list li {
+    list-style: none;
+    border-bottom: 1px dotted #CA1FD9 ;
+    text-indent: 20px;
+    height: auto;
+    padding: 1px;
+    text-transform: capitalize;
+  }
+  .notebook-list li:hover {
+    background-color: #f0f0f0;
+    -webkit-transition: all 0.2s;
+    -moz-transition:    all 0.2s;
+    -ms-transition:     all 0.2s;
+    -o-transition:      all 0.2s;
+  }
+  .notebok-lines {
+    border-left: 1px solid #CA1FD9 ;
+    border-right: 1px solid #CA1FD9 ;
+    width: 2px;
+    float: left;
+    height: 495px;
+    margin-left: 40px;
+  }
+  }
+  @media screen and (min-width:780px){
+    .notebook
+    {
+    position:relative;
+    top:200px;
+    height:fit-content;
+    left:35px;
+    z-index: 999;
+    width:0px;
+    height:0px;
+    
+    }
+    .notebook-body {
+      background-color :#f5f5f5;
+      width: 200px;
+      margin: 0 auto;
+      padding: 0;
+      
+    }
+    
+    .notebook-list {
+      color: rgb(0, 0, 0) !important;
+      font-size: 22px;
+      padding: 0 !important;
+      width: 500px;
+      font-family: courier, monospace;
+      border: 1px solid #CA1FD9 ;
+    }
+    .notebook-list li {
+      list-style: none;
+      border-bottom: 1px dotted #CA1FD9 ;
+      text-indent: 25px;
+      height: auto;
+      padding: 10px;
+      text-transform: capitalize;
+    }
+    .notebook-list li:hover {
+      background-color: #f0f0f0;
+      -webkit-transition: all 0.2s;
+      -moz-transition:    all 0.2s;
+      -ms-transition:     all 0.2s;
+      -o-transition:      all 0.2s;
+    }
+    .notebok-lines {
+      border-left: 1px solid #CA1FD9 ;
+      border-right: 1px solid #CA1FD9 ;
+      width: 2px;
+      float: left;
+      height: 495px;
+      margin-left: 40px;
+    }
+    }
